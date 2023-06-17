@@ -15,8 +15,6 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
   text-decoration: none;
   font-family: poppins,sans-serif;
 }
@@ -170,7 +168,6 @@ body {
   max-width: 800px;
   padding: 2rem 3rem;
   border-radius: 10px;
-
 }
 
 .about h1 {
@@ -196,6 +193,15 @@ body {
   font-size: 1.6rem;
   margin: 0.5rem 0;
   margin-top: 8%;
+}
+
+.about h4 {
+  color: #ffffff;
+  font-size: 1.0rem;
+  margin: 0.5rem 0;
+  margin-top: 1%;
+  line-height: 2.2;
+  font-style: italic;
 }
 
 .about p {
@@ -238,6 +244,25 @@ body {
 .work .workbox .desc li {
   margin: 0px;
   line-height: 1.2;
+}
+
+.about .projects-ds li {
+  color: #f2f2f2;
+  line-height: 1.8;
+  text-decoration: underline;
+}
+
+.about .projects-dw li {
+  color: #f2f2f2;
+  line-height: 1.8;
+  text-decoration: underline;
+}
+
+.about h5 {
+  color: #22b4ee;
+  font-size: 0.9rem;
+  margin-top: 0%;
+  margin-bottom: 3%;
 }
 
 /** Design Responsivo **/
